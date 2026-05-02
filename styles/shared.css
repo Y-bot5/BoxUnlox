@@ -1,3 +1,77 @@
 body {
-    background-image: "textures/sky.png";
+    background-image: url("../textures/sky.png");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#grassBlock {
+    background-image: url("../textures/grassBlock.png");
+    background-size: contain;
+    height: 48px;
+    width: 1536px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 70%;
+}
+
+#dirtBlock1 {
+    background-image: url("../textures/dirtBlock.png");
+    background-size: contain;
+    height: 48px;
+    width: 1536px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 76.64113%;
+}
+
+#dirtBlock2 {
+    background-image: url("../textures/dirtBlock.png");
+    background-size: contain;
+    height: 48px;
+    width: 1536px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 83.2%;
+}
+
+#dirtBlock3 {
+    background-image: url("../textures/dirtBlock.png");
+    background-size: contain;
+    height: 48px;
+    width: 1536px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 89.6%;
+}
+
+#dirtBlock4 {
+    background-image: url("../textures/dirtBlock.png");
+    background-size: contain;
+    height: 48px;
+    width: 1536px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 96.1%;
+}
+
+#player {
+    background-image: url("../textures/player.png");
+    background-size: contain;
+    height: 96px;
+    width: 48px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 56.9%;
+}
+
+#box {
+    background-image: url("../textures/box.png");
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 60%;
+    left: 60%;
 }
