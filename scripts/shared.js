@@ -15,7 +15,7 @@ function doElementsOverlap(el1, el2) {
 }
 
 function update() {
-    if (keysPressed['KeyA']) {
+    if (keysPressed['KeyW']) {
         const currentStyle = window.getComputedStyle(box);
         let leftValue = parseInt(currentStyle.left) || 0;
 
